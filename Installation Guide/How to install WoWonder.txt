@@ -1,0 +1,59 @@
+"WoWonder v1.2" installation Documentation
+
+Thank you for purchasing WoWonder. If you have any questions, please feel free to contact me using this email address: wowondersocial@gmail.com
+
+// ------------------------------------- //
+
+1) Preparation
+
+Make sure you have the following installed on your server:
+
+PHP 5.4 +
+MySQLi Extension
+GD Library
+cURL
+
++----------------------+
+
+2) Installation
+
+- Upload all files/folders located inside "Script" folder to your server.
+
+- Upload "MySQL" folder to your server.
+
+- Import 'WoWonder.sql' file from the "MySQL" folder into your MySQL database using the import function available in MySQL phpMyadmin, or other MySQL services.
+
+- Open the file 'config.php' using a text editor, and replace what's between the brackets:
+(e.g: 'db_name') with your MySQL settings. (make sure you write the right url in 'site_url' field)
+
+For Social Login, you will need to create applications on Facebook/Google+/Twitter/LinkedIn/VK.
+Watch the video tutorial below on how to implement Social Login:
+
+https://www.youtube.com/watch?v=yNiwZb1KQ9g
+
++----------------------+
+
+3) Themes (optional)
+
+The theme folder must contain the following:
+
+info.php (contains theme informations such as author, version, auther website, etc..)
+themeIcon.png (Theme's icon)
+the rest of the required theme files are located in the default theme called 'wowonder'.
+
+// ---------------------------------------------- //
+
+Admin Login:
+
+Username: admin
+Password: 12345678
+
+// ---------------------------------------------- //
+
+Created: 11/23/2015
+Last Update: 10/1/2016
+By: Deen Doughouz (DoughouzForest)
+Email: wowondersocial@gmail.com
+Website: http://www.wowonder.com
+
+Copyright © 2016 WoWonder Social Network Platform. All rights reserved.
